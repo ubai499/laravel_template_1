@@ -411,7 +411,7 @@
                     </div>
                 </li>
                 <!-- end Dashboard Menu -->
-
+                @role('admin')
                 <li class="menu-title"><i class="ri-more-fill"></i> <span data-key="t-pages">Pages</span></li>
 
                 <li class="nav-item">
@@ -666,6 +666,7 @@
                         </ul>
                     </div>
                 </li>
+                @endrole
 
                 <li class="menu-title"><i class="ri-more-fill"></i> <span data-key="t-components">Components</span></li>
 
